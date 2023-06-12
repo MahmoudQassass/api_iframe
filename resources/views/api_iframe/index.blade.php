@@ -2216,10 +2216,7 @@ jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'heigh
 </script>
 
 <script type="text/template" id="tmpl-elementor-finder__results__item">
-	<a href="{{ url }}" class="elementor-finder__results__item__link">
-		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-{{{ icon }}}"></i>
-		</div>
+
 	 
 	 
 
