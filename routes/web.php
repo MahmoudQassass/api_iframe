@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\IFrameController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+//Route::get('/get_info',[IFrameController::class,'get_info']);
+Route::group(['prefix'=>'api','middleware'=>['']],function(){
+    Route::resource('informations',IFrameController::class);
 });
 
