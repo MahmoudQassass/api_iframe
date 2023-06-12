@@ -17,8 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('informations',IFrameController::class);
+
 //Route::get('/get_info',[IFrameController::class,'get_info']);
-Route::group(['prefix'=>'api','middleware'=>['']],function(){
-    Route::resource('informations',IFrameController::class);
-});
+// Route::group(['prefix'=>'api_form','middleware'=>['']],function(){
+// });
 
