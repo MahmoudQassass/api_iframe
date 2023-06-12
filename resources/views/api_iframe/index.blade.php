@@ -119,7 +119,7 @@ var etConfig = {"noresults":"No results were found!","ajaxSearchResultsArrow":"<
 <script type="text/javascript" src="https://deampro.com/wp-content/themes/xstore/js/etheme-scripts.min.js" id="etheme-js"></script>
 <script type="text/javascript" id="et-woo-swatches-js-extra">
 /* <![CDATA[ */
-var sten_wc_params = {"ajax_url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php","is_customize_preview":"","is_singular_product":"","show_selected_title":"both","add_to_cart_btn_text":"Add to cart","read_more_btn_text":"Read More","read_more_about_btn_text":"about","read_more_for_btn_text":"for","select_options_btn_text":"Select options","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination."};
+// var sten_wc_params = {"ajax_url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php","is_customize_preview":"","is_singular_product":"","show_selected_title":"both","add_to_cart_btn_text":"Add to cart","read_more_btn_text":"Read More","read_more_about_btn_text":"about","read_more_for_btn_text":"for","select_options_btn_text":"Select options","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination."};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/et-core-plugin/packages/st-woo-swatches/public/js/frontend.min.js" id="et-woo-swatches-js"></script>
