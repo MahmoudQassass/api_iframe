@@ -2211,7 +2211,7 @@ jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'heigh
 </script>
 
 <script type="text/template" id="tmpl-elementor-finder__results__category">
-	<div class="elementor-finder__results__category__title">{{{ title }}}</div>
+	 
 	<div class="elementor-finder__results__category__items"></div>
 </script>
 
@@ -2220,24 +2220,12 @@ jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'heigh
 		<div class="elementor-finder__results__item__icon">
 			<i class="eicon-{{{ icon }}}"></i>
 		</div>
-		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
-		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
-		<# } #>
+	 
+	 
 
-		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
-		<# } #>
+	 
 	</a>
-	<# if ( actions.length ) { #>
-		<div class="elementor-finder__results__item__actions">
-		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
-				<i class="eicon-{{{ this.icon }}}"></i>
-			</a>
-		<# } ); #>
-		</div>
-	<# } #>
+	 
 </script>
 	<script type="text/javascript">
 		(function () {
@@ -2285,7 +2273,6 @@ jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'heigh
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://deampro.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" type="text/css" media="all">
 <script type="text/javascript" id="thickbox-js-extra">
 /* <![CDATA[ */
-var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/deampro.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-includes/js/thickbox/thickbox.js" id="thickbox-js"></script>
@@ -2299,7 +2286,6 @@ jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","curr
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js" id="booked-tooltipster-js"></script>
 <script type="text/javascript" id="booked-functions-js-extra">
 /* <![CDATA[ */
-var booked_js_vars = {"ajax_url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php","profilePage":"","publicAppointments":"","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_please_wait":"Please wait ...","i18n_wrong_username_pass":"Wrong username\/password combination.","i18n_fill_out_required_fields":"Please fill out all required fields.","i18n_guest_appt_required_fields":"Please enter your name to book an appointment.","i18n_appt_required_fields":"Please enter your name, your email address and choose a password to book an appointment.","i18n_appt_required_fields_guest":"Please fill in all \"Information\" fields.","i18n_password_reset":"Please check your email for instructions on resetting your password.","i18n_password_reset_error":"That username or email is not recognized.","nonce":"dc531deebf"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/booked/assets/js/functions.js" id="booked-functions-js"></script>
@@ -2307,14 +2293,12 @@ var booked_js_vars = {"ajax_url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.ph
 <script type="text/javascript" src="//deampro.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js" id="prettyPhoto-js"></script>
 <script type="text/javascript" id="jquery-yith-wcwl-js-extra">
 /* <![CDATA[ */
-var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","yith_wcwl_button_position":"after_add_to_cart","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/deampro.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies on your browser are enabled.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"5104aa9109","remove_from_wishlist_nonce":"d7b7b25765","reload_wishlist_and_adding_elem_nonce":"40db2824b1","load_mobile_nonce":"232d50e148","delete_item_nonce":"7ed5f61b4f","save_title_nonce":"a4dcfb12a5","save_privacy_nonce":"c974ba4e31","load_fragments_nonce":"2e5a15dc91"},"redirect_after_ask_estimate":"","ask_estimate_redirect_url":"https:\/\/deampro.com"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js" id="jquery-yith-wcwl-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js" id="swv-js"></script>
 <script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
-var wpcf7 = {"api":{"root":"https:\/\/deampro.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/contact-form-7/includes/js/index.js" id="contact-form-7-js"></script>
@@ -2323,31 +2307,26 @@ var wpcf7 = {"api":{"root":"https:\/\/deampro.com\/wp-json\/","namespace":"conta
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js"></script>
 <script type="text/javascript" id="wc-add-to-cart-js-extra">
 /* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/deampro.com\/cart-2\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js" id="wc-add-to-cart-js"></script>
 <script type="text/javascript" id="woocommerce-js-extra">
 /* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js" id="woocommerce-js"></script>
 <script type="text/javascript" id="wc-cart-fragments-js-extra">
 /* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_be3ddf0836aa9d98c90594e33ea8bd5d","fragment_name":"wc_fragments_be3ddf0836aa9d98c90594e33ea8bd5d","request_timeout":"5000"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js" id="wc-cart-fragments-js"></script>
 <script type="text/javascript" id="booked-fea-js-js-extra">
 /* <![CDATA[ */
-var booked_fea_vars = {"ajax_url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php","i18n_confirm_appt_delete":"Are you sure you want to cancel this appointment?","i18n_confirm_appt_approve":"Are you sure you want to approve this appointment?"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/booked/includes/add-ons/frontend-agents/js/functions.js" id="booked-fea-js-js"></script>
 <script type="text/javascript" id="yith-woocompare-main-js-extra">
 /* <![CDATA[ */
-var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","added_label":"Added","table_title":"Product Comparison","auto_open":"yes","loader":"https:\/\/deampro.com\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list","close_label":"Close"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js" id="yith-woocompare-main-js"></script>
@@ -2360,21 +2339,15 @@ var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woo
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js" id="backbone-radio-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/common-modules.min.js" id="elementor-common-modules-js"></script>
 <script type="text/javascript" id="elementor-web-cli-js-before">
-var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/deampro.com\/wp-json\/","assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"6095d49f12","version":"3.11.3"};
-var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/deampro.com\/wp-json\/","assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"6095d49f12","version":"3.11.3"};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/web-cli.min.js" id="elementor-web-cli-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js" id="elementor-dialog-js"></script>
 <script type="text/javascript" id="wp-api-request-js-extra">
 /* <![CDATA[ */
-var wpApiSettings = {"root":"https:\/\/deampro.com\/wp-json\/","nonce":"6095d49f12","versionString":"wp\/v2\/"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-includes/js/api-request.min.js" id="wp-api-request-js"></script>
 <script type="text/javascript" id="elementor-dev-tools-js-before">
-var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.11.3"}};
-var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.11.3"}};
-var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.11.3"}};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/dev-tools.min.js" id="elementor-dev-tools-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
@@ -2387,11 +2360,9 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script type="text/javascript" id="elementor-common-js-before">
-var elementorCommonConfig = {"version":"3.11.3","isRTL":false,"isDebug":false,"isElementorDebug":false,"activeModules":["ajax","finder","connect","event-tracker"],"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"landing-pages":true,"kit-elements-defaults":true},"urls":{"assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/","rest":"https:\/\/deampro.com\/wp-json\/"},"filesUpload":{"unfilteredFiles":true},"library_connect":{"is_connected":false,"subscription_plans":[{"label":null,"promotion_url":null,"color":null},{"label":"Pro","promotion_url":"https:\/\/elementor.com\/pro\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"}],"base_access_level":0,"current_access_level":0},"ajax":{"url":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php","nonce":"80e335e202"},"finder":{"data":{"edit":{"title":"Edit","dynamic":true,"name":"edit"},"general":{"title":"General","dynamic":false,"items":{"saved-templates":{"title":"Saved Templates","icon":"library-save","url":"https:\/\/deampro.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library","keywords":["template","section","page","library"]},"system-info":{"title":"System Info","icon":"info-circle-o","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-system-info","keywords":["system","info","environment","elementor"]},"role-manager":{"title":"Role Manager","icon":"person","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-role-manager","keywords":["role","manager","user","elementor"]},"knowledge-base":{"title":"Knowledge Base","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=go_knowledge_base_site","keywords":["help","knowledge","docs","elementor"]},"theme-builder":{"title":"Theme Builder","icon":"library-save","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-app&ver=3.11.3#site-editor\/promotion","keywords":["template","header","footer","single","archive","search","404","library"]},"kit-library":{"title":"Kit Library","icon":"kit-parts","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-app&ver=3.11.3#\/kit-library","keywords":["kit library","kit","library","site parts","parts","assets","templates"]}},"name":"general"},"create":{"title":"Create","dynamic":false,"items":{"page":{"title":"Add New Page Template","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=e42b286322","keywords":["Add New Page Template","post","page","template","new","create"]},"section":{"title":"Add New Section","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=section&_wpnonce=e42b286322","keywords":["Add New Section","post","page","template","new","create"]},"wp-post":{"title":"Add New Post","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=e42b286322","keywords":["Add New Post","post","page","template","new","create"]},"wp-page":{"title":"Add New Page","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=e42b286322","keywords":["Add New Page","post","page","template","new","create"]},"landing-page":{"title":"Add New Landing Page","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=e42b286322#library","keywords":["Add New Landing Page","post","page","template","new","create"]},"product":{"title":"Add New Product","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=product&_wpnonce=e42b286322","keywords":["Add New Product","post","page","template","new","create"]},"staticblocks":{"title":"Add New Block","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=staticblocks&_wpnonce=e42b286322","keywords":["Add New Block","post","page","template","new","create"]},"testimonials":{"title":"Add New Testimonial","icon":"plus-circle-o","url":"https:\/\/deampro.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=testimonials&_wpnonce=e42b286322","keywords":["Add New Testimonial","post","page","template","new","create"]},"etheme_portfolio":false},"name":"create"},"site":{"title":"Site","dynamic":false,"items":{"homepage":{"title":"Homepage","url":"https:\/\/deampro.com","icon":"home-heart","keywords":["home","page"]},"wordpress-dashboard":{"title":"Dashboard","icon":"dashboard","url":"https:\/\/deampro.com\/wp-admin\/","keywords":["dashboard","wordpress"]},"wordpress-menus":{"title":"Menus","icon":"wordpress","url":"https:\/\/deampro.com\/wp-admin\/nav-menus.php","keywords":["menu","wordpress"]},"wordpress-themes":{"title":"Themes","icon":"wordpress","url":"https:\/\/deampro.com\/wp-admin\/themes.php","keywords":["themes","wordpress"]},"wordpress-customizer":{"title":"Customizer","icon":"wordpress","url":"https:\/\/deampro.com\/wp-admin\/customize.php","keywords":["customizer","wordpress"]},"wordpress-plugins":{"title":"Plugins","icon":"wordpress","url":"https:\/\/deampro.com\/wp-admin\/plugins.php","keywords":["plugins","wordpress"]},"wordpress-users":{"title":"Users","icon":"wordpress","url":"https:\/\/deampro.com\/wp-admin\/users.php","keywords":["users","profile","wordpress"]}},"name":"site"},"settings":{"title":"Settings","dynamic":false,"items":{"general-settings":{"title":"General Settings","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor","keywords":["general","settings","elementor"]},"advanced":{"title":"Advanced","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor#tab-advanced","keywords":["advanced","settings","elementor"]},"experiments":{"title":"Experiments","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor#tab-experiments","keywords":["settings","elementor","experiments"]}},"name":"settings"},"tools":{"title":"Tools","dynamic":false,"items":{"tools":{"title":"Tools","icon":"tools","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-tools","keywords":["tools","regenerate css","safe mode","debug bar","sync library","elementor"]},"replace-url":{"title":"Replace URL","icon":"tools","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url","keywords":["tools","replace url","domain","elementor"]},"maintenance-mode":{"title":"Maintenance Mode","icon":"tools","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode","keywords":["tools","maintenance","coming soon","elementor"]},"import-export":{"title":"Import Export","icon":"import-export","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit","keywords":["tools","import export","import","export","kit"]},"version-control":{"title":"Version Control","icon":"time-line","url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-tools#tab-versions","keywords":["tools","version","control","rollback","beta","elementor"]}},"name":"tools"}}},"connect":[],"event-tracker":{"isUserDataShared":false}};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/common.min.js" id="elementor-common-js"></script>
 <script type="text/javascript" id="elementor-app-loader-js-before">
-var elementorAppConfig = {"menu_url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-app&ver=3.11.3#site-editor\/promotion","assets_url":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/","return_url":"https:\/\/deampro.com\/wp-admin\/","hasPro":false,"admin_url":"https:\/\/deampro.com\/wp-admin\/","login_url":"https:\/\/deampro.com\/wp-login.php","base_url":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-app&ver=3.11.3","site-editor":[],"import-export":[],"kit-library":[],"onboarding":[]};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/app-loader.min.js" id="elementor-app-loader-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-includes/js/comment-reply.min.js" id="comment-reply-js"></script>
@@ -2408,7 +2379,6 @@ var elementorAppConfig = {"menu_url":"https:\/\/deampro.com\/wp-admin\/admin.php
 <script type="text/javascript" src="https://deampro.com/wp-content/themes/xstore/js/modules/back-top.min.js" id="back-top-js"></script>
 <script type="text/javascript" id="agrwc-jsscript-js-extra">
 /* <![CDATA[ */
-var AGRWC_VARS = {"selFTags":"","selTags":"","alertText":"","ajURL":"https:\/\/deampro.com\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/agreeme-checkboxes-for-woocommerce/js/agrwc-cbx.js" id="agrwc-jsscript-js"></script>
@@ -2416,11 +2386,9 @@ var AGRWC_VARS = {"selFTags":"","selTags":"","alertText":"","ajURL":"https:\/\/d
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
 <script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.11.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"landing-pages":true,"kit-elements-defaults":true},"urls":{"assets":"https:\/\/deampro.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":3556,"title":"form%20%E2%80%93%20Deam%20Pro","excerpt":"","featuredImage":false},"user":{"roles":["administrator"]}};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
 <script type="text/javascript" id="elementor-admin-bar-js-before">
-var elementorAdminBarConfig = {"elementor_edit_page":{"id":"elementor_edit_page","title":"Edit with Elementor","href":null,"children":{"347":{"id":"elementor_edit_doc_347","title":"Footer - furniture3","sub_title":"Post","href":"https:\/\/deampro.com\/wp-admin\/post.php?post=347&action=elementor"},"348":{"id":"elementor_site_settings","title":"Site Settings","sub_title":"Site","href":"https:\/\/deampro.com\/wp-admin\/post.php?post=3162&action=elementor#e:run:panel\/global\/open","class":"elementor-site-settings","parent_class":"elementor-second-section"},"349":{"id":"elementor_app_site_editor","title":"Theme Builder","sub_title":"Site","href":"https:\/\/deampro.com\/wp-admin\/admin.php?page=elementor-app&ver=3.11.3#site-editor\/promotion","class":"elementor-app-link","parent_class":"elementor-second-section"}}}};
 </script>
 <script type="text/javascript" src="https://deampro.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js" id="elementor-admin-bar-js"></script>
 <script type="text/javascript" src="https://deampro.com/wp-includes/js/hoverintent-js.min.js" id="hoverintent-js-js"></script>
@@ -2436,15 +2404,5 @@ This is WZone Debug Bar - Dashboard
 )
 </pre>
 <h2>COOKIES:</h2>
-<pre>Array
-(
-    [wp-settings-time-3] =&gt; 1686480644
-    [wp-settings-3] =&gt; mfold=o
-    [PHPSESSID] =&gt; js9k8tp80sv1aisrtjr51icp4j
-    [wordpress_logged_in_fe67c09112e78cb3b3cb7159e39742d4] =&gt; amir|1686726623|O2ZDhOFKBzYXXrgNDeV2GMkFjpOYu2xrIm1aEFqdmyn|4678b5a616c2645d324c1185bdfcc334a2f7ed9c1ef94014bfa458b4fd720db4
-    [tk_ai] =&gt; woo:zOkgsKo9BhBd72pYWqiWzzJy
-    [XSRF-TOKEN] =&gt; eyJpdiI6IkZ5L2RxV3ArZ2xoSFpzc1B1L0pmV0E9PSIsInZhbHVlIjoiOGpNU1p1cXBBY00zYkp2Ulo3cjJVZ0dIODk3Q3Z2U0hzak1leERiL1kwcDJJMHo1OEpsd0JtSXhRbG5PMU5ZQkYyaG1EUlpMOFFRcWNuZVIvS25aWWk2azk1RktDYnp4Y3NsZVFsK2NtUzVETzU3MjZCaXh0NmNzb1E2ZVhsdWciLCJtYWMiOiI2NDNkODAxNTA3ZmM3NzRhY2E1N2Y0MjAwNTZkMTJiOTg3MzY3Y2E1YzU5ZGM2OWEzOTIyMTkyNDgyMGRiOGUxIiwidGFnIjoiIn0=
-    [laravel_session] =&gt; eyJpdiI6Imh0aVVhcjU2NFhBY1pRMTExekpBOEE9PSIsInZhbHVlIjoiSDgxcjJOT0NWQjVtRFYyMzcybVNudys3bGZFT3c0TUVvM2FLQkM0c3d5WnNOSWo4RHF0dmdVSFZQRklGUEhPTG5zNEgvZTQzMG5uSmRLTXVtNFJpaU9lQkhXd0hBQTlQSi9HZFlvRUN1bDhpdG9CSGtXNU1IVnVFNWFiMkkxZFEiLCJtYWMiOiI3NjdmZTY3M2I5YWM5MDQxNDNjNzg1YTJkMTk3MjkxYmMwMGEyYTUxZTdlZjFiZTZmMzUzMDI4ZDc5Y2JjMGZmIiwidGFnIjoiIn0=
-)
-</pre>
+ 
 </div></div></div></div></div><span id="elementor-device-mode" class="elementor-screen-only"></span><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
