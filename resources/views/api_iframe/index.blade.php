@@ -2186,15 +2186,7 @@ jQuery('.woocommerce-tabs #tab-description .aplus p img[height=1]').css({ 'heigh
 	<div class="elementor-templates-modal__header__logo-area"></div>
 	<div class="elementor-templates-modal__header__menu-area"></div>
 	<div class="elementor-templates-modal__header__items-area">
-		<# if ( closeType ) { #>
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
-				<# if ( 'skip' === closeType ) { #>
-				<span>Skip</span>
-				<# } #>
-				<i class="eicon-close" aria-hidden="true" title="Close"></i>
-				<span class="elementor-screen-only">Close</span>
-			</div>
-		<# } #>
+	
 		<div id="elementor-template-library-header-tools"></div>
 	</div>
 </script>
