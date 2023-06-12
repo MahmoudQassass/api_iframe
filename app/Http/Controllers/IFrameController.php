@@ -11,7 +11,7 @@ class IFrameController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('api_iframe.index');
     }
 
     /**
