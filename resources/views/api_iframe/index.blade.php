@@ -226,6 +226,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         <div class="bloc-left" style="width: 100%">
           <div class="form-default edit">
             <form class="form" method="POST" name="fileservice_form" enctype="multipart/form-data" id="fileservice_form">
+              @csrf <!-- {{ csrf_field() }} -->
               <div class="f-title">Files service</div>
               <div class="f-inner" style="padding-top: 30px">
                 <input type="hidden" name="frm_opening_time" id="frm_opening_time" value="opened">
